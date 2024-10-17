@@ -1,0 +1,26 @@
+.header{
+    @include flex(center,space-between,nowrap,0px);
+    padding: 20px;
+
+    .hdr-left{
+        font-size: 1.5rem;
+    }
+}
+
+
+
+.list{
+    @include flex(center,center,nowrap,20px);
+    li{
+
+        a{
+            font-size: 1.2rem;
+            color: black;
+
+            &:visited{
+                color: black;
+            }
+        }
+    }
+}
+
